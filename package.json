@@ -1,0 +1,17 @@
+{
+  "name": "tsdown-repro",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsdown"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsdown": "^0.22.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {}
+}
